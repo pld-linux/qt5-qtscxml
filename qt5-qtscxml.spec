@@ -53,9 +53,7 @@ Summary:	The Qt5 Scxml library
 Summary(pl.UTF-8):	Biblioteka Qt5 Scxml
 Group:		X11/Libraries
 Requires:	Qt5Core >= %{qtbase_ver}
-Requires:	Qt5Gui >= %{qtbase_ver}
 Requires:	Qt5Qml >= %{qtdeclarative_ver}
-Requires:	Qt5Quick >= %{qtdeclarative_ver}
 
 %description -n Qt5Scxml
 Qt5 Scxml library.
@@ -68,7 +66,7 @@ Summary:	Qt5 Scxml - development files
 Summary(pl.UTF-8):	Biblioteka Qt5 Scxml - pliki programistyczne
 Group:		X11/Development/Libraries
 Requires:	Qt5Core-devel >= %{qtbase_ver}
-Requires:	Qt5Gui-devel >= %{qtbase_ver}
+Requires:	Qt5Qml-devel >= %{qtbase_ver}
 
 %description -n Qt5Scxml-devel
 Qt5 Scxml - development files.
