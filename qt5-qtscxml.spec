@@ -9,12 +9,12 @@
 Summary:	The Qt5 Scxml library
 Summary(pl.UTF-8):	Biblioteka Qt5 Scxml
 Name:		qt5-%{orgname}
-Version:	5.15.13
+Version:	5.15.14
 Release:	1
 License:	LGPL v3 or GPL v2+ or commercial
 Group:		X11/Libraries
 Source0:	https://download.qt.io/official_releases/qt/5.15/%{version}/submodules/%{orgname}-everywhere-opensource-src-%{version}.tar.xz
-# Source0-md5:	e5023183f10328ef6dfc0c5df777090f
+# Source0-md5:	d563afd75b4316dc830bd71df08a914a
 URL:		https://www.qt.io/
 BuildRequires:	Qt5Core-devel >= %{qtbase_ver}
 BuildRequires:	Qt5Qml-devel >= %{qtdeclarative_ver}
